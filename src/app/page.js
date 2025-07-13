@@ -266,7 +266,7 @@ export default function Home() {
     </div>
 
     {/* Optional Links */}
-    <div className="flex flex-col gap-2 text-sm text-gray-300">
+    <div className="flex flex-col gap-2 text- text-gray-300">
           <a
         href="https://www.linkedin.com/in/pearl-sensory"
         target="_blank"
@@ -284,7 +284,7 @@ export default function Home() {
       >
         Github
       </a>
-      <a href="#" className="hover:text-white">Resume</a>
+      <a href="/Resume-2.pdf" className="hover:text-white">Resume</a>
     </div>
   </div>
 

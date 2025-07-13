@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       {/* Image + QR Code Block */}
-      <div className="w-full max-w-400 bg-[#0e2010] rounded-xl p-6 flex flex-col md:flex-row items-center justify-center gap-6 h-200 -mt-55">
+      <div className="w-full max-w-400 bg-[#0e2010] rounded-xl p-6 flex flex-col md:flex-row items-center justify-center gap-6 h-200 -mt-60">
         {/* Placeholder image (replace with your own) */}
         <img
           src="/dp.png"

@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="min-h-[400vh] border-50 border-[#566459] p-8 ">
-      <div className="flex flex-col items-center justify-center h-screen ">
+      <div className="flex flex-col items-center justify-center h-screen -mt-20">
         <div className="w-full max-w-6xl flex justify-between px-4 text-[#0e2010] font-extrabold">
           {/* P */}
           <div className="flex flex-col items-center">
@@ -38,7 +38,7 @@ export default function Home() {
       </div>
 
       {/* Image + QR Code Block */}
-      <div className="w-full max-w-400 bg-[#0e2010] rounded-xl p-6 flex flex-col md:flex-row items-center justify-center gap-6 ml-4 h-200 -mt-40">
+      <div className="w-full max-w-400 bg-[#0e2010] rounded-xl p-6 flex flex-col md:flex-row items-center justify-center gap-6 h-200 -mt-55">
         {/* Placeholder image (replace with your own) */}
         <img
           src="/dp.png"

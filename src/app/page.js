@@ -57,14 +57,14 @@ export default function Home() {
       {/* About Me Section */}
       <div className=" flex w-full max-w-3xl text-left mt-20 ml-20">
         <span>
-          <h2 className="text-6xl font-bold text-[#355E3B] mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-[#355E3B] mb-4">About Me</h2>
 
-          <p className="text-gray-700 text-lg leading-relaxed w-1/2 mb-6">
+          <p className="text-gray-700 text-sm leading-relaxed w-1/2 mb-6">
             I’m a passionate front-end developer who enjoys creating beautiful,
             responsive websites with clean and intuitive user interfaces.
           </p>
 
-          <p className="text-gray-700 text-lg leading-relaxed w-1/2">
+          <p className="text-gray-700 text-sm leading-relaxed w-1/2">
             I’m also a creative video editor who loves telling compelling
             stories through visuals, cuts, and sound.
           </p>
@@ -72,7 +72,7 @@ export default function Home() {
         <a
           href="/Resume-2.pdf"
           download
-          className="inline-block w-full sm:w-auto h-20 px-6 py-3 bg-[#355E3B] text-white text-xl mt-20 rounded-2xl animate-bounce text-center"
+          className="inline-block w-full sm:w-auto h-20 px-6 py-3 bg-[#355E3B] text-white text-md mt-20 rounded-2xl animate-bounce text-center"
         >
           Download Resume
         </a>
@@ -80,17 +80,17 @@ export default function Home() {
 
       <div className="flex flex-col md:flex-row md:items-start gap-6 text-xl text-[#0e2010] ml-180">
         <span className="text-center md:text-left">
-          <span className="text-3xl font-bold block">Junior Web Developer</span>
+          <span className="text-xl font-bold block">Junior Web Developer</span>
           (front-end)
         </span>
         |
         <span className="text-center md:text-left">
-          <span className="text-3xl font-bold block">About 10</span>
+          <span className="text-xl font-bold block">About 10</span>
           projects completed
         </span>
         |
         <span className="text-center md:text-left">
-          <span className="text-3xl font-bold block">Video Editing</span>1 year
+          <span className="text-xl font-bold block">Video Editing</span>1 year
           of experience
         </span>
       </div>
@@ -101,9 +101,9 @@ export default function Home() {
 
       {/* Recent Work Section */}
       <div className="w-full max-w-3xl text-left mt-16 ml-20">
-        <h2 className="text-6xl font-bold text-[#355E3B] mb-2">Recent Work</h2>
+        <h2 className="text-4xl font-bold text-[#355E3B] mb-2">Recent Work</h2>
 
-        <p className="text-xl text-gray-600 w-full md:w-1/2 leading-relaxed">
+        <p className="text-md text-gray-600 w-full md:w-1/2 leading-relaxed">
           Whether you need a striking portfolio, a functional website, or a
           custom solution, I'm here to deliver results that align with your
           vision.
@@ -186,7 +186,7 @@ export default function Home() {
       </div>
 
       <div className="w-full flex justify-center items-center text-center mt-24 px-4">
-        <p className="text-2xl md:text-2xl font-semibold text-gray-600 max-w-3xl leading-relaxed">
+        <p className="text-xl md:text-xl font-semibold text-gray-600 max-w-3xl leading-relaxed">
           I design and build beautiful, user-friendly web experiences — and
           bring stories to life through creative video editing. Let’s create
           something exceptional together.
@@ -199,9 +199,9 @@ export default function Home() {
 
       {/* My Service Section */}
       <div className="w-full max-w-6xl mx-auto mt-20 px-4">
-        <h2 className="text-6xl font-bold text-[#355E3B] mb-4">My Service</h2>
+        <h2 className="text-4xl font-bold text-[#355E3B] mb-4">My Service</h2>
 
-        <p className="text-xl text-gray-700 w-full md:w-1/2 leading-relaxed">
+        <p className="text-sm text-gray-700 w-full md:w-1/2 leading-relaxed">
           I provide responsive front-end development using modern tools like
           React, Next.Js and Tailwind CSS, as well as creative video editing
           services for personal brands, businesses, and content creators —
@@ -212,7 +212,7 @@ export default function Home() {
 
       {/* Skills Section */}
       <div className="w-full max-w-6xl mx-auto mt-20 px-4">
-        <h2 className="text-3xl font-bold text-[#355E3B] mb-4">My Skills</h2>
+        <h2 className="text-xl font-bold text-[#355E3B] mb-4">My Skills</h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
           {[
@@ -236,7 +236,7 @@ export default function Home() {
 
       {/* Stay Updated Section */}
 <div className="w-full max-w-5xl mx-auto mt-24 px-6 py-12 bg-[#F9F9F6] rounded-2xl shadow-lg text-center">
-  <h2 className="text-4xl font-bold text-[#355E3B] mb-6">
+  <h2 className="text-2xl font-bold text-[#355E3B] mb-6">
     Stay Updated on My Progress
   </h2>
 
@@ -253,10 +253,10 @@ export default function Home() {
 
     {/* Contact Info */}
     <div className="flex flex-col gap-3">
-      <h3 className="text-2xl font-semibold">Let's Connect</h3>
+      <h3 className="text-xl font-semibold">Let's Connect</h3>
       <a
         href="mailto:pearlsensory01@gmail.com"
-        className="text-lg sm:text-base text-gray-200 hover:underline"
+        className="text-sm sm:text-base text-gray-200 hover:underline"
       >
         pearlsensory01@gmail.com
       </a>
@@ -266,7 +266,7 @@ export default function Home() {
     </div>
 
     {/* Optional Links */}
-    <div className="flex flex-col gap-2 text-lg text-gray-300">
+    <div className="flex flex-col gap-2 text-sm text-gray-300">
           <a
         href="https://www.linkedin.com/in/pearl-sensory"
         target="_blank"

@@ -1,30 +1,30 @@
 export default function Home() {
   return (
     <div className="min-h-[400vh] border-50 border-[#566459] p-8 ">
-      <div className="flex flex-col items-center justify-center h-screen -mt-20">
+      <div className="flex flex-col items-center justify-center h-screen sm:-mt-20 -mt-70 -ml-5 sm:-ml-0 ">
         <div className="w-full max-w-6xl flex justify-between px-4 text-[#0e2010] font-extrabold">
           {/* P */}
           <div className="flex flex-col items-center">
-            <span className="text-[14vw] leading-none mt-2">P</span>
+            <span className="text-[14vw] leading-none sm:mt-2 mt-8 ">P</span>
           </div>
 
           {/* E */}
-          <div className="flex flex-col items-center">
-            <span className="text-sm text-gray-600 mb-2">
+          <div className="flex flex-col items-center  ">
+            <span className="sm:text-sm text-[10px] text-gray-600 sm:mb-2 mb-10 md:mb-6 lg:mb-2 ">
               Front-End <br /> Developer
             </span>
-            <span className="text-[14vw] leading-none -mt-10">E</span>
+            <span className="text-[14vw] leading-none -mt-10 ">E</span>
           </div>
 
           {/* A */}
           <div className="flex flex-col items-center">
-            <span className="text-sm text-gray-600 mb-2">and</span>
-            <span className="text-[14vw] leading-none -mt-5">A</span>
+            <span className="sm:text-sm text-[10px] text-gray-600 sm:mb-2 mb-5">and</span>
+            <span className="text-[14vw] leading-none sm:-mt-5 -mt-1 ">A</span>
           </div>
 
           {/* R */}
           <div className="flex flex-col items-center">
-            <span className="text-sm text-gray-600 mb-2">
+            <span className="sm:text-sm text-[10px] text-gray-600 sm:mb-2 mb-10 md:mb-6 lg:mb-2">
               Video <br /> Editor
             </span>
             <span className="text-[14vw] leading-none -mt-10">R</span>
@@ -32,39 +32,39 @@ export default function Home() {
 
           {/* L */}
           <div className="flex flex-col items-center">
-            <span className="text-[14vw] leading-none mt-2">L</span>
+            <span className="text-[14vw] leading-none sm:mt-2 mt-8">L</span>
           </div>
         </div>
       </div>
 
       {/* Image + QR Code Block */}
-      <div className="w-full max-w-400 bg-[#0e2010] rounded-xl p-6 flex flex-col md:flex-row items-center justify-center gap-6 h-200 -mt-60">
+      <div className="w-full max-w-400 bg-[#0e2010] rounded-xl sm:p-6 p-2 flex sm:flex-col md:flex-row items-center justify-center gap-6 sm:h-200 h-70 sm:-mt-60 -mt-75 ">
         {/* Placeholder image (replace with your own) */}
         <img
           src="/dp.png"
           alt="Profile"
-          className="w-180 h-180 object-cover rounded-lg shadow-lg"
+          className="sm:w-180 w-70 sm:h-180 h-70 pl-5 sm:pl-0 object-cover rounded-lg shadow-lg"
         />
 
         {/* QR Code image */}
         <img
           src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://yourwebsite.com"
           alt="QR Code"
-          className="w-30 h-30 object-contain bg-white p-2 rounded-lg shadow-md"
+          className="sm:w-30 w-10 sm:h-30 h-10 object-contain bg-white p-2 rounded-lg shadow-md mr-5 sm:mr-0 "
         />
       </div>
 
       {/* About Me Section */}
-      <div className=" flex w-full max-w-3xl text-left mt-20 ml-20">
+      <div className=" sm:flex w-full max-w-3xl text-left sm:mt-20 mt-5 sm:ml-20 ">
         <span>
           <h2 className="text-4xl font-bold text-[#355E3B] mb-4">About Me</h2>
 
-          <p className="text-gray-700 text-sm leading-relaxed w-1/2 mb-6">
+          <p className="text-gray-700 text-sm leading-relaxed sm:w-1/2 mb-6">
             I’m a passionate front-end developer who enjoys creating beautiful,
             responsive websites with clean and intuitive user interfaces.
           </p>
 
-          <p className="text-gray-700 text-sm leading-relaxed w-1/2">
+          <p className="text-gray-700 text-sm leading-relaxed sm:w-1/2">
             I’m also a creative video editor who loves telling compelling
             stories through visuals, cuts, and sound.
           </p>
@@ -72,25 +72,25 @@ export default function Home() {
         <a
           href="/Resume-2.pdf"
           download
-          className="inline-block w-full sm:w-auto h-20 px-6 py-3 bg-[#355E3B] text-white text-md mt-20 rounded-2xl animate-bounce text-center"
+          className="inline-block w-30 sm:w-auto ml-10 sm:ml-0 h-20 px-6 py-3 bg-[#355E3B] text-white text-md sm:mt-20 mt-7 rounded-2xl animate-bounce text-center md:mr-30 lg:mr-0"
         >
           Download Resume
         </a>
       </div>
 
-      <div className="flex flex-col md:flex-row md:items-start gap-6 text-xl text-[#0e2010] ml-180">
-        <span className="text-center md:text-left">
-          <span className="text-xl font-bold block">Junior Web Developer</span>
+      <div className="flex sm:flex-col md:flex-row md:items-start gap-6 text-xl text-[#0e2010] sm:ml-180 -ml-7 ">
+        <span className="text-center md:text-left sm:text-xl text-[11px]">
+          <span className=" font-bold block">Junior Web Developer</span>
           (front-end)
         </span>
         |
-        <span className="text-center md:text-left">
-          <span className="text-xl font-bold block">About 10</span>
+        <span className="text-center md:text-left sm:text-xl text-[11px]">
+          <span className=" font-bold block">About 10</span>
           projects completed
         </span>
         |
-        <span className="text-center md:text-left">
-          <span className="text-xl font-bold block">Video Editing</span>1 year
+        <span className="text-center md:text-left sm:text-xl text-[11px]">
+          <span className=" font-bold block">Video Editing</span>1 year
           of experience
         </span>
       </div>
@@ -101,9 +101,9 @@ export default function Home() {
 
       {/* Recent Work Section */}
       <div className="w-full max-w-3xl text-left mt-16 ml-20">
-        <h2 className="text-4xl font-bold text-[#355E3B] mb-2">Recent Work</h2>
+        <h2 className="text-4xl font-bold text-[#355E3B] mb-2 -ml-20 sm:-ml-0">Recent Work</h2>
 
-        <p className="text-md text-gray-600 w-full md:w-1/2 leading-relaxed">
+        <p className="text-md text-gray-600 w-full md:w-1/2 leading-relaxed -ml-20 sm:-ml-0">
           Whether you need a striking portfolio, a functional website, or a
           custom solution, I'm here to deliver results that align with your
           vision.
@@ -126,28 +126,28 @@ export default function Home() {
           </div>
 
           {/* Mobile-style projects */}
-          <div className="flex gap-6 md:w-[48%] lg:w-[38%]">
-            <div className="bg-gray-100 rounded-2xl shadow-md p-2 w-600 mx-auto">
+          <div className="sm:flex gap-6 md:w-[48%] lg:w-[38%]">
+            <div className="bg-gray-100 rounded-2xl shadow-md p-2 sm:w-600 w-30 mx-auto md:h-15 lg:h-0">
               <img
                 src="/image2.png"
                 alt="Project 2"
-                className="w-full h-auto rounded-md"
+                className="sm:w-full w-25 h-20 sm:h-auto md:h-10 lg:h-auto rounded-md"
               />
             </div>
 
-            <div className="bg-gray-100 rounded-2xl shadow-md p-2 w-600 mx-auto">
+            <div className="bg-gray-100 rounded-2xl shadow-md p-2 sm:w-600  mx-auto md:h-15 lg:h-0">
               <img
                 src="/image3.png"
                 alt="Project 3"
-                className="w-full h-auto rounded-md"
+                className="sm:w-full w-25 h-20 sm:h-auto rounded-md md:h-10 lg:h-auto"
               />
             </div>
 
-            <div className="bg-gray-100 rounded-2xl shadow-md p-2 w-600 mx-auto">
+            <div className="bg-gray-100 rounded-2xl shadow-md p-2 sm:w-600 w-30 mx-auto md:h-15 lg:h-0">
               <img
                 src="/image4.png"
                 alt="Project 4"
-                className="w-full h-auto rounded-md"
+                className="sm:w-full w-25 h-20 sm:h-auto rounded-md md:h-10 lg:h-auto"
               />
             </div>
           </div>

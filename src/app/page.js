@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="min-h-[400vh] border-50 border-[#566459] p-8 bg-[#e2dede] sm:bg-white md:bg-[#e2dede] lg:bg-white ">
+    <div className="min-h-[400vh] sm:border-50 sm:border-[#566459] p-8 bg-[#e2dede] sm:bg-white md:bg-[#e2dede] lg:bg-white ">
       <div className="flex flex-col items-center justify-center h-screen sm:-mt-20 -mt-70 -ml-5 sm:-ml-0 ">
         <div className="w-full max-w-6xl flex justify-between px-4 text-[#0e2010] font-extrabold">
           {/* P */}

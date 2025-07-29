@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       {/* Image + QR Code Block */}
-      <div className="w-full max-w-md mx-auto bg-gradient-to-r from-[#0e2010] to-[#355E3B] rounded-xl p-4 sm:p-6 flex flex-col sm:flex-row items-center justify-center gap-6 -mt-20 sm:-mt-28">
+      <div className="w-full max-w-md mx-auto bg-gradient-to-r border-6 border-[#355E3B] rounded-xl p-4 sm:p-6 flex flex-col sm:flex-row items-center justify-center gap-6 -mt-20 sm:-mt-28">
         <img
           src="/dp.png"
           alt="Profile"

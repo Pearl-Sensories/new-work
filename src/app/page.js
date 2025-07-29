@@ -89,14 +89,22 @@ export default function Home() {
       <div className="w-full max-w-6xl mx-auto mt-10 px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="bg-[#F2F1EB] rounded-xl shadow-lg p-2">
+            <a href="glosslab-nails.vercel.app">
             <img src="/image1.png" alt="Project 1" className="w-full h-auto rounded-lg" />
+            </a>
             <p className="text-center text-sm mt-2 text-gray-600">Website (Desktop View)</p>
           </div>
-          {["/image2.png", "/image3.png", "/image4.png"].map((img, i) => (
-            <div key={i} className="bg-[#F2F1EB] rounded-xl shadow-md p-2">
-              <img src={img} alt={`Project ${i + 2}`} className="w-full h-auto rounded-md" />
-            </div>
-          ))}
+       {[
+  { img: "/image2.png", link: "inventory-project-nextjs-xva1.vercel.app" },
+  { img: "/image3.png", link: "final-project-bikh.vercel.app" },
+  { img: "/image4.png", link: "advertisement-lilac.vercel.app" }
+].map((item, i) => (
+  <div key={i} className="bg-[#F2F1EB] rounded-xl shadow-md p-2">
+    <a href={item.link} target="_blank" rel="noopener noreferrer">
+      <img src={item.img} alt={`Project ${i + 2}`} className="w-full h-auto rounded-md hover:opacity-90 transition-opacity" />
+    </a>
+  </div>
+))}
         </div>
       </div>
 
@@ -169,7 +177,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-col gap-2 text-gray-300">
-            <a href="https://www.linkedin.com/in/pearl-sensory" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+            <a href="https://www.linkedin.com/in/pearl-sarpong" target="_blank" rel="noopener noreferrer" className="hover:text-white">
               LinkedIn
             </a>
             <a href="https://www.github.com/pearl-sensories" target="_blank" rel="noopener noreferrer" className="hover:text-white">
@@ -178,7 +186,7 @@ export default function Home() {
             <a href="/Resume-2.pdf" className="hover:text-white">
               Resume
             </a>
-          </div>
+          </div>  
         </div>
         <div className="absolute bottom-0 left-0 w-full text-center md:text-right pr-4">
           <h1 className="text-[12vw] md:text-[7vw] font-extrabold text-white opacity-10 tracking-widest select-none">Pearl</h1>
